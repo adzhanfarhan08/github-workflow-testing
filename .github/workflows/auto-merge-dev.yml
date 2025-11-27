@@ -3,7 +3,7 @@ name: Auto Merge Feature to Development
 on:
   push:
     branches:
-      - 'feature/**'
+      - "feature/**"
 
 jobs:
   merge:
@@ -16,8 +16,8 @@ jobs:
 
       - name: Setup Git identity
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "adzhanfarhan08"
+          git config user.email "adzhanfarhan@gmail.com"
 
       - name: Merge feature to development
         run: |
